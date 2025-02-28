@@ -9,7 +9,7 @@ import { SheetLeftbar } from "./leftbar";
 
 import { SheetClose } from "@/components/ui/sheet";
 
-// import Search from "./search";
+
 import Anchor from "./anchor";
 
 export const NAVLINKS = [
@@ -57,7 +57,7 @@ export function Navbar() {
               </div>
               <div>
               <Link
-                href="https://github.com/ezeslucky/LunivaUI.git"
+                href="https://github.com/ezeslucky/BotNextUI.git"
                 className={buttonVariants({ variant: "ghost", size: "icon" })}
               >
                 <Icons.gitHub className="icon-class w-4" />
