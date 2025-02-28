@@ -19,6 +19,7 @@ import { Cover } from '@/components/ui/cover'
 import { Spotlight } from '@/components/ui/Spootlight'
 import RequestComponents from '@/components/requestcomponets'
 import { Icons } from '@/components/icon'
+import Footer from '@/components/footer'
 
 export default function Home() {
   const[star, setStar] = useState(0);
@@ -56,7 +57,7 @@ export default function Home() {
   return (
     <main className="flex items-center justify-center flex-col">
       <Navbar />
-      <section className="h-screen w-full   rounded-md  !overflow-visible relative flex flex-col items-center  antialiased">
+      
       <motion.div
       className="flex items-center justify-center flex-col"
       variants={staggerContainer}
@@ -78,31 +79,19 @@ export default function Home() {
             </Cover>
           </h1>
           <p className="text-md md:text-lg text-center mt-6 mb-5 text-gray-400">
-            Accelerate your project’s growth with ready-to-use UI components{" "}
-            <br /> that save time and elevate quality
+          Speed up your project&apos;s growth with ready-to-use UI {" "}
+            <br /> components—saving time and enhancing quality.
           </p>
           <h1 className="text-center font-bold mt-6 text-2xl text-gray-400">
             Built With
           </h1>
-          <motion.div
-            className="flex flex-col mb-4 md:flex-row items-center justify-center mt-4 gap-5"
-            variants={staggerItem}
-          >
-            <Image src="./nextjs.svg" height={40} width={90} alt="next js" />
-            <Image src="./shadcn.svg" height={40} width={140} alt="shadcn ui" />
-            <Image
-              src="./tailwind.svg"
-              height={40}
-              width={120}
-              alt="tailwind css"
-            />
-            <Image
-              src="./aceternity.svg"
-              height={40}
-              width={160}
-              alt="acternity ui"
-            />
-          </motion.div>
+          <InfiniteMovingCards
+        className="md:mt-[3rem] mt-[-5px]"
+        items={clients}
+        direction="right"
+        speed="slow"
+      />
+         
           <motion.div
             className="flex gap-6 flex-col md:flex-row items-center justify-center"
             variants={staggerItem}
@@ -132,16 +121,19 @@ export default function Home() {
 
       
     </motion.div>
-      </section>
-      <InfiniteMovingCards
-        className="md:mt-[18rem] mt-[-100px]"
-        items={clients}
-        direction="right"
-        speed="slow"
-      />
-      <section>
-        <HeroParallax products={products}></HeroParallax>
-      </section>
+    <motion.div className="mt-16" variants={staggerItem}>
+        <Card className="hidden md:flex md:flex-col">
+          <CardTitle className="mt-5 text-center mb-8">
+          
+          </CardTitle>
+          <HeroParallax products={products}></HeroParallax>
+        </Card>
+      </motion.div>
+      
+        <motion.div>
+          <Footer/>
+        </motion.div>
+    
      
     </main>
   )
