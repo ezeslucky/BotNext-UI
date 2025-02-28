@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Contributing to BotNext UI
 
-## Getting Started
+Thank you for your interest in contributing to BotNext UI! 🎉  
+We value contributions from the community, whether it's a bug fix, a new feature, or an enhancement. Your input helps us grow and improve the library.
 
-First, run the development server:
+---
+
+### How to Contribute
+
+Follow these steps to get started with contributing to BotNext UI:
+
+---
+
+#### 1. **Fork the Repository**  
+Click the "Fork" button at the top-right of the repository page to create your own copy of the project.
+
+---
+
+#### 2. **Clone Your Fork**  
+Clone your forked repository to your local machine:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/ezeslucky/BotNextUI.git
+cd BotNextUI
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+#### 3. **Install Dependencies**  
+Run the following command to install the project's dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+yarn install
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+#### 4. **Start the Development Server**  
+Run the development server to test your changes locally:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+yarn run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+#### 5. **Create a New Branch**  
+Create a branch for your feature or fix:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+git checkout -b feature-name
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+#### 6. **Make Your Changes**  
+Edit the code to implement your feature or fix the bug.
+
+---
+
+#### 7. **Commit Your Changes**  
+After making your changes, commit them with a descriptive message:
+
+```bash
+git commit -m "Add New  feature"
+```
+
+---
+
+#### 8. **Push Your Changes**  
+Push your branch to your forked repository:
+
+```bash
+git push origin feature
+```
+
+---
+
+
+---
+
+
