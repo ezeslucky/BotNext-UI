@@ -101,7 +101,7 @@ export default function Home() {
                 Explore Components
               </Button>
             </Link>
-            <Link href="https://github.com/ezeslucky/LunivaUI.git">
+            <Link href="https://github.com/ezeslucky/BotNextUI.git">
               <Button
                 className="gap-4 rounded-2xl"
                 variant={"secondary"}
