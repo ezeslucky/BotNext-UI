@@ -1,6 +1,6 @@
 @import "tailwindcss/base";
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 @layer base {
   :root {
@@ -29,19 +29,6 @@
     --color-3: 210 100% 63%;
     --color-4: 195 100% 63%;
     --color-5: 90 100% 63%;
-    --sidebar-background: 0 0% 98%;
-    --sidebar-foreground: 240 5.3% 26.1%;
-    --sidebar-primary: 240 5.9% 10%;
-    --sidebar-primary-foreground: 0 0% 98%;
-    --sidebar-accent: 240 4.8% 95.9%;
-    --sidebar-accent-foreground: 240 5.9% 10%;
-    --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
-    --chart-1: 347 77% 50%;
-    --chart-2: 352 83% 91%;
-    --chart-3: 350 80% 72%;
-    --chart-4: 351 83% 82%;
-    --chart-5: 349 77% 62%;
   }
 
   .dark {
@@ -64,24 +51,6 @@
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;
-    --color-1: 0 100% 63%;
-    --color-2: 270 100% 63%;
-    --color-3: 210 100% 63%;
-    --color-4: 195 100% 63%;
-    --color-5: 90 100% 63%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
-    --chart-1: 347 77% 50%;
-    --chart-2: 349 77% 62%;
-    --chart-3: 350 80% 72%;
-    --chart-4: 351 83% 82%;
-    --chart-5: 352 83% 91%;
   }
 
   * {
@@ -125,7 +94,7 @@ pre > code {
 }
 
 .highlight-line {
-  @apply dark:bg-neutral-800/90 bg-neutral-200/90;
+  @apply bg-neutral-200/90 dark:bg-neutral-800/90;
 }
 
 .punctuation,
@@ -138,7 +107,7 @@ pre > code {
 }
 
 .function {
-  color: hsla(210, 100%, 66%, 1);
+  color: hsl(210, 100%, 66%);
 }
 
 .string,
@@ -158,15 +127,15 @@ pre > code {
 }
 
 .dark .keyword {
-  color: hsla(341, 90%, 67%, 1);
+  color: hsl(341, 90%, 67%);
 }
 
 .attr-value {
-  color: hsla(131, 43%, 57%, 1);
+  color: hsl(131, 43%, 57%);
 }
 
 .tag {
-  color: hsla(341, 90%, 67%, 1);
+  color: hsl(341, 90%, 67%);
 }
 
 .attr-name {
@@ -182,7 +151,8 @@ pre > code {
   font-family: var(--font-code) !important;
 }
 
-.highlight-comp>code {
+.highlight-comp > code {
   background-color: transparent !important;
 }
+
 
