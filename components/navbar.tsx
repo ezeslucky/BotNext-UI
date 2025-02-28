@@ -11,6 +11,7 @@ import { SheetClose } from "@/components/ui/sheet";
 
 
 import Anchor from "./anchor";
+import Search from "./search";
 
 export const NAVLINKS = [
   {
@@ -53,7 +54,7 @@ export function Navbar() {
           <div className="flex items-center gap-2">
             <div className="flex items-center gap-2">
               <div className='hidden md:flex'>
-                
+                <Search/>
               </div>
               <div>
               <Link
