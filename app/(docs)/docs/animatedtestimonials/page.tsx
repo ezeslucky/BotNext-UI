@@ -1,10 +1,9 @@
 import React from "react";
 import { PageSubTitle, PageTemplate } from "../components/page-template";
 import PreviewCodeCard from "../components/preview-code-card";
-
+import { Steppers } from "@/components/ui/steppers";
 import AnimatedTestimonialsDemo from "./demoanimatedtest";
 import  Link  from "next/link";
-import { Steppers } from "@/components/ui/steppers";
 
 const page = () => {
   return (

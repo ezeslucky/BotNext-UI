@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 "use client"
 /* eslint-disable react/no-unescaped-entities */
 import { useState } from "react";
@@ -769,7 +768,7 @@ export default function CardCollection() {
               <AvatarFallback>SU</AvatarFallback>
             </Avatar>
             <div>
-              <CardTitle>Luniva UI</CardTitle>
+              <CardTitle>BotNext UI</CardTitle>
               <CardDescription>@ezesluckycodes</CardDescription>
             </div>
           </div>
@@ -1606,7 +1605,7 @@ export function ProfileCard() {
             <AvatarFallback>SU</AvatarFallback>
           </Avatar>
           <div>
-            <CardTitle>Luniva UI</CardTitle>
+            <CardTitle>BotNext UI</CardTitle>
             <CardDescription>@ezesluckycodes</CardDescription>
           </div>
         </div>

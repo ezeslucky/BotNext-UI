@@ -1,23 +1,23 @@
 export const siteConfig = {
   name: "BotNext UI",
-  url: "https://botnextui.ezeslucky.in/",
+  url: "https://botnextui.ezesluckycodes.in/",
   ogImage: {
-    url: "https://botnextui.ezeslucky.in/og.png",
+    url: "https://botnextui.ezesluckycodes.in/og.png",
 
     alt: "BotNext UI - Beautiful and accessible React components",
   },
   description:
-    "Beautifully crafted components you can copy-paste into your apps—accessible, customizable, and open-source.",
+    "Beautifully designed components that you can copy and paste into your apps. Accessible. Customizable. Open Source.",
   links: {
-    twitter: "https://x.com/ezeslucky",
-    github: "https://github.com/ezeslucky",
-    linkedin: "https://www.linkedin.com/in/ezeslucky", 
-    
-   
+    twitter: "https://x.com/ezesluckycodes",
+    github: "https://github.com/ezesluckycodes",
+    linkedin: "https://www.linkedin.com/in/ezesluckycodes", // Update with your actual LinkedIn profile
+    // Update if you have a Facebook page
+    instagram: "https://www.instagram.com/ezesluckyjainn18", // Update with your actual Instagram profile
   },
   author: {
-    name: "ezeslucky ",
-    url: "https://ezeslucky.in",
+    name: "ezeslucky Jain",
+    url: "https://ezesluckycodes.in",
   },
   keywords: [
     "UI components",

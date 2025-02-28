@@ -1,7 +1,6 @@
-import { colors } from "@/components/registry-colors"
 import { z } from "zod"
 
-
+import { colors } from "@/components/registry-colors"
 
 const colorSchema = z.object({
   name: z.string(),

@@ -1,6 +1,4 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-
-import { ConnectionProviderProps } from '@/provider/connections-provider'
+import { ConnectionProviderProps } from '@/providers/connections-provider'
 import { z } from 'zod'
 
 export const EditUserProfileSchema = z.object({

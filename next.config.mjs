@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 /** @type {import('next').NextConfig} */
 import createMDX from "@next/mdx";
 

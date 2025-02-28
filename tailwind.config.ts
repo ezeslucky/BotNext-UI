@@ -1,15 +1,14 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/no-require-imports */
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import type { Config } from "tailwindcss";
 
 import svgToDataUri from "mini-svg-data-uri";
 
 import colors from "tailwindcss/colors";
-import { default as flattenColorPalette } from "tailwindcss/lib/util/flattenColorPalette";
+const {
+  default: flattenColorPalette,
+} = require("tailwindcss/lib/util/flattenColorPalette");
 
 const config = {
-  
+  darkMode: ["class"],
   content: [
     "./pages/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
@@ -188,8 +187,8 @@ const config = {
 export default config;
 
 function addVariablesForColors({ addBase, theme }: any) {
-  const allColors = flattenColorPalette(theme("colors"));
-  const newVars = Object.fromEntries(
+  let allColors = flattenColorPalette(theme("colors"));
+  let newVars = Object.fromEntries(
     Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
   );
 

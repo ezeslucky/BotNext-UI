@@ -21,7 +21,7 @@ Clone your forked repository to your local machine:
 
 ```bash
 git clone https://github.com/ezeslucky/BotNextUI.git
-cd BotNextUI
+cd BotNext UI
 ```
 
 ---
@@ -30,7 +30,7 @@ cd BotNextUI
 Run the following command to install the project's dependencies:
 
 ```bash
-yarn install
+npm install
 ```
 
 ---
@@ -39,7 +39,7 @@ yarn install
 Run the development server to test your changes locally:
 
 ```bash
-yarn run dev
+npm run dev
 ```
 
 ---
@@ -62,7 +62,7 @@ Edit the code to implement your feature or fix the bug.
 After making your changes, commit them with a descriptive message:
 
 ```bash
-git commit -m "Add New  feature"
+git commit -m "Add feature-name"
 ```
 
 ---
@@ -71,9 +71,12 @@ git commit -m "Add New  feature"
 Push your branch to your forked repository:
 
 ```bash
-git push origin feature
+git push origin feature-name
 ```
 
+---
 
+
+---
 
 

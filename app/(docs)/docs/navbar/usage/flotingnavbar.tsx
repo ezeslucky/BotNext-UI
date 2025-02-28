@@ -10,7 +10,7 @@ import { Home, Menu, MessageSquare, Plus, Settings, Users } from "lucide-react"
 
 export default function Floatingnavbar() {
   return (
-    
+    // add fixed  to the nav class name to make the navbar stick to the bottom of the screen
     <div className=" bottom-6 left-0 right-0 flex justify-center">
       <nav className="flex items-center justify-center space-x-4 rounded-full border bg-background p-2 shadow-lg">
         <Button variant="ghost" size="icon" className="rounded-full">

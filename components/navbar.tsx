@@ -2,15 +2,13 @@
 import { ModeToggle } from "@/components/theme-toggle";
 
 import Link from "next/link";
-import {  buttonVariants } from "./ui/button";
+import { Button, buttonVariants } from "./ui/button";
 import { Icons } from "./icon";
-
+import Anchor from "./anchor";
 import { SheetLeftbar } from "./leftbar";
 
 import { SheetClose } from "@/components/ui/sheet";
 
-
-import Anchor from "./anchor";
 import Search from "./search";
 
 export const NAVLINKS = [
@@ -54,7 +52,7 @@ export function Navbar() {
           <div className="flex items-center gap-2">
             <div className="flex items-center gap-2">
               <div className='hidden md:flex'>
-                <Search/>
+                <Search />
               </div>
               <div>
               <Link
@@ -85,8 +83,7 @@ export function Navbar() {
 export function Logo() {
   return (
     <Link href="/" className="flex items-center gap-2">
-      
-      <Icons.logo className="icon-class w-2 " />
+      <Icons.logo className="icon-class w-2" />
 
       <h2 className="text-base md:text-lg font-bold">
        BotNext UI

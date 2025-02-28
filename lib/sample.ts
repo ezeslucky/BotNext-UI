@@ -1,12 +1,10 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-
-
+//@ts-ignore
 import { default as flattenColorPalette } from 'tailwindcss/lib/util/flattenColorPalette'
 import svgToDataUri from 'mini-svg-data-uri'
 
 
 const config = {
-  
+  //...
   plugins: [
     function ({ matchUtilities, theme }: any) {
       matchUtilities(

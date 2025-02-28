@@ -3,12 +3,11 @@ import {
   PageSubTitle,
   PageTemplate,
 } from "@/app/(docs)/docs/components/page-template";
-
+import { Steppers } from "@/components/ui/steppers";
 import PreviewCodeCard from "@/app/(docs)/docs/components/preview-code-card";
 import { Metadata } from "next";
 import { baseMetadata } from "@/app/(docs)/layout-parts/base-metadata";
 import { AccordionDemo } from "./accordion-demo";
-import { Steppers } from "@/components/ui/steppers";
 
 const tailwindConfigCode = ` extend: {
       keyframes: {

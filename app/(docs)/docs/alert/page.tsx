@@ -2,14 +2,13 @@ import React from "react";
 import { PageSubTitle, PageTemplate } from "../components/page-template";
 import PreviewCodeCard from "../components/preview-code-card";
 
-
+import { Steppers } from "@/components/ui/steppers";
 import Alertdemo from "./alertdemo";
 import Usage from "../components/usage";
 import Alert02 from "./usage/alerttwo";
 import Alert03 from "./usage/alertthree";
 import Alert04 from "./usage/alertfour";
 import Link from "next/link";
-import { Steppers } from "@/components/ui/steppers";
 
 const page = () => {
   return (

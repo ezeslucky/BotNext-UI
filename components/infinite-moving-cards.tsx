@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 'use client'
 
 import { cn } from '@/lib/utils'
@@ -87,7 +86,6 @@ export const InfiniteMovingCards = ({
           pauseOnHover && 'hover:[animation-play-state:paused]'
         )}
       >
-        
         {items.map((item, idx) => (
           <Image
             width={170}

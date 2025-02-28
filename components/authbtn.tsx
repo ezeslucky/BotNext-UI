@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { Avatar, AvatarImage } from "@/components/ui/avatar";
 
 import { signIn, signOut, useSession } from "next-auth/react";

@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import Link from "next/link"
 import { ArrowRightIcon } from "lucide-react"
 import { Blocks, PieChart } from "lucide-react"

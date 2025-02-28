@@ -3,12 +3,13 @@
 
 import * as React from "react"
 import { Calendar } from "@/components/ui/calendar"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Switch } from "@/components/ui/switch"
+import { Textarea } from "@/components/ui/textarea"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import {
   Table,
@@ -32,7 +33,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts"
-import {  DollarSign, Users, Activity, Send, Palette, Check } from "lucide-react"
+import { Moon, Sun, DollarSign, Users, Activity, Send, Palette, Check } from "lucide-react"
 
 const revenueData = [
   { month: "Jan", amount: 12000 },

@@ -26,7 +26,7 @@ export default function IntroductionPage() {
             </Link>
           </Button>
           <Button variant="outline" asChild>
-            <Link href="https://github.com/ezeslucky/BotNextUI.git.git">
+            <Link href="https://github.com/ezeslucky/BotNextUI.git">
               <Github className="mr-2 h-4 w-4" />
               GitHub
             </Link>

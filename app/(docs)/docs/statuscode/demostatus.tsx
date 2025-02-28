@@ -12,7 +12,6 @@ import {
   ArrowLeft,
   ArrowRight,
 } from "lucide-react";
-import { JSX } from "react/jsx-runtime";
 
 interface ResponseMessage {
   statusCode: number;
