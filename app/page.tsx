@@ -55,43 +55,41 @@ export default function Home() {
     fetchGithubData();
   }, []);
   return (
-    <main className="flex items-center justify-center flex-col">
-      <Navbar />
+    
       
-      <motion.div
+      <><motion.div
       className="flex items-center justify-center flex-col"
       variants={staggerContainer}
       initial="hidden"
       animate="visible"
     >
       <Spotlight className="-top-40 left-0 md:left-60 md:-top-20" fill="gray" />
-      <div className="pt-3"><RequestComponents/></div>
+      <div className="pt-3"><RequestComponents /></div>
       <motion.div
         className="flex items-center justify-center mt-12"
         variants={staggerItem}
       >
         <div className="flex flex-col items-center">
-        
+
           <h1 className="md:text-6xl text-2xl text-center md:mt-12 font-bold">
-          Pick it up, place it in, and let the magic happen.<br /> {" "}
+            Pick it up, place it in, and let the magic happen.<br /> {" "}
             <Cover>
               <span className=" dark:text-neutral-100">Elevate with Design Shine</span>
             </Cover>
           </h1>
           <p className="text-md md:text-lg text-center mt-6 mb-5 text-gray-400">
-          Speed up your project&apos;s growth with ready-to-use UI {" "}
+            Speed up your project&apos;s growth with ready-to-use UI {" "}
             <br /> components—saving time and enhancing quality.
           </p>
           <h1 className="text-center font-bold mt-6 text-2xl text-gray-400">
             Built With
           </h1>
           <InfiniteMovingCards
-        className="md:mt-[3rem] mt-[-5px]"
-        items={clients}
-        direction="right"
-        speed="slow"
-      />
-         
+            className="md:mt-[3rem] mt-[-5px]"
+            items={clients}
+            direction="right"
+            speed="slow" />
+
           <motion.div
             className="flex gap-6 flex-col md:flex-row items-center justify-center"
             variants={staggerItem}
@@ -108,7 +106,7 @@ export default function Home() {
                 size={"lg"}
               >
                 <Icons.gitHub className="icon-class w-4 " />
-                
+
               </Button>
             </Link>
           </motion.div>
@@ -119,22 +117,19 @@ export default function Home() {
         </div>
       </motion.div>
 
-      
-    </motion.div>
-    <motion.div className="mt-16" variants={staggerItem}>
+
+    </motion.div><motion.div className="mt-16" variants={staggerItem}>
         <Card className="hidden md:flex md:flex-col">
           <CardTitle className="mt-5 text-center mb-8">
-          
+
           </CardTitle>
           <HeroParallax products={products}></HeroParallax>
         </Card>
-      </motion.div>
+      </motion.div></>
       
-        <motion.div>
-          <Footer/>
-        </motion.div>
+        
     
      
-    </main>
+   
   )
 }
