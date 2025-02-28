@@ -74,9 +74,6 @@ Push your branch to your forked repository:
 git push origin feature
 ```
 
----
 
-
----
 
 
