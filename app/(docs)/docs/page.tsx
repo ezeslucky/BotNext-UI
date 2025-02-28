@@ -14,7 +14,7 @@ export default function IntroductionPage() {
     <div className="max-w-4xl mx-auto space-y-12 py-8">
       {/* Hero Section */}
       <div className="space-y-4">
-        <h1 className="text-4xl font-bold tracking-tight">Luniva UI</h1>
+        <h1 className="text-4xl font-bold tracking-tight">BotNext UI</h1>
         <p className="text-xl text-muted-foreground">
           Beautifully designed components built with Aceternity UI ,ShadCN UI and MAGIC UI a that you can copy and
           paste into your apps. Accessible. Customizable. Open Source.
@@ -26,7 +26,7 @@ export default function IntroductionPage() {
             </Link>
           </Button>
           <Button variant="outline" asChild>
-            <Link href="https://github.com/ezeslucky/LunivaUI.git">
+            <Link href="https://github.com/ezeslucky/BotNextUI.git.git">
               <Github className="mr-2 h-4 w-4" />
               GitHub
             </Link>
@@ -39,7 +39,7 @@ export default function IntroductionPage() {
         <h2 className="text-3xl font-bold tracking-tight">Introduction</h2>
         <div className="text-muted-foreground space-y-4">
           <p>
-            Luniva UI is a collection of re-usable components built using{" "}
+            BotNext UI is a collection of re-usable components built using{" "}
             <Link href="https://ui.aceternity.com/" className="font-medium underline underline-offset-4">
               Aceternity UI
             </Link>{" "}
@@ -56,7 +56,7 @@ export default function IntroductionPage() {
             <div className="rounded-lg border p-4">
               <h3 className="font-semibold mb-2">What do you mean by copy and paste?</h3>
               <p>
-                Luniva UI is not a component library. It&apos;s a collection of re-usable components that
+                BotNext UI is not a component library. It&apos;s a collection of re-usable components that
                 you can copy and paste into your projects.
               </p>
             </div>
@@ -79,7 +79,7 @@ export default function IntroductionPage() {
           <AccordionItem value="item-1">
             <AccordionTrigger>Is this a component library?</AccordionTrigger>
             <AccordionContent>
-              No. Luniva UI is not a component library. It&apos;s a collection of re-usable components
+              No. BotNext UI is not a component library. It&apos;s a collection of re-usable components
               that you can copy and paste into your projects.
             </AccordionContent>
           </AccordionItem>

@@ -8,7 +8,7 @@ import InfiniteScrollDemo from '@/app/(docs)/docs/infinite-scroll/infinite-scrol
 import { PropsTable } from '@/app/(docs)/docs/components/props-table/props-table';
 import { infiniteScrollProp } from '@/app/(docs)/docs/infinite-scroll/infinite-scroll-prop';
 export const metadata: Metadata = baseMetadata({
-  title: 'Luniva UI-Infinite Scroll',
+  title: 'BotNext UI-Infinite Scroll',
   description:
     'Simple infinite scroll component. You have fully control over the loading spinner and IntersectionObserver API.',
 });

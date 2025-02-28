@@ -1,6 +1,6 @@
 "use client";
 
-
+import Anchor from "./anchor";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import {
   Sheet,
@@ -14,7 +14,7 @@ import { Button } from "./ui/button";
 import { AlignLeftIcon } from "lucide-react";
 import { NavMenu } from "./navbar";
 
-
+import Mobiledocs from "./mobiledocs";
 
 
 export function SheetLeftbar() {
@@ -32,7 +32,7 @@ export function SheetLeftbar() {
         <ScrollArea className="flex flex-col gap-4">
           <div className="flex flex-col items-center gap-5 text-sm font-medium text-muted-foreground">
             <NavMenu />
-           
+            <Mobiledocs/>
           </div>
           
           

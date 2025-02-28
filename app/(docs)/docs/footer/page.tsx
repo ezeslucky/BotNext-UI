@@ -17,7 +17,7 @@ import ParticleAnimationFooter from "./usage/particlefooter";
 import Footer from "@/components/footer";
 
 export const metadata: Metadata = baseMetadata({
-  title: "Luniva UI-Footers",
+  title: "BotNext UI-Footers",
   description:
     "An enhancement slider that allows you to select a range of values.",
 });

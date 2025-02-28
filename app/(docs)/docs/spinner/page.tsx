@@ -13,7 +13,7 @@ import { PropsTable } from '@/app/(docs)/docs/components/props-table/props-table
 import { spinnerProp } from '@/app/(docs)/docs/spinner/spinner-prop';
 
 export const metadata: Metadata = baseMetadata({
-  title: 'Luniva UI-Spinner',
+  title: 'BotNext UI-Spinner',
   description: 'A simple spinner for displaying loading state',
 });
 

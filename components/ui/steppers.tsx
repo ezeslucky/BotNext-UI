@@ -1,11 +1,9 @@
 import React from "react";
-
+import { H4 } from "@/components/ui/heading-with-anchor";
 import { cn } from "@/lib/utils";
 import CodeHighlight from "@/app/(docs)/docs/components/code-card/parts/code-highlight";
 import fs from "fs/promises";
 import { InlineCode } from "./inline-code";
-import { H4 } from "./heading-with-anchor";
-
 
 interface StepperProps {
   children?: React.ReactNode;

@@ -158,7 +158,7 @@ export default AnimatedTestimonialsDemo;
 const testimonials = [
   {
     quote:
-      "Luniva UI is a game-changer! Its components are so well-designed and customizable that it made our app look polished and professional in no time.",
+      "BotNext UI is a game-changer! Its components are so well-designed and customizable that it made our app look polished and professional in no time.",
     name: "Ananya Gupta",
     designation: "Frontend Engineer, NovaTech",
     src: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb",
@@ -166,21 +166,21 @@ const testimonials = [
 
   {
     quote:
-      "I love the simplicity and minimalism of Luniva UI. The components are intuitive and fit seamlessly into our existing projects.",
+      "I love the simplicity and minimalism of BotNext UI. The components are intuitive and fit seamlessly into our existing projects.",
     name: "Sophia Allen",
     designation: "UI/UX Designer, Creatify",
     src: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb",
   },
   {
     quote:
-      "As a junior developer, Luniva UI has been a lifesaver. The documentation is straightforward, and the components work flawlessly with Tailwind CSS.",
+      "As a junior developer, BotNext UI has been a lifesaver. The documentation is straightforward, and the components work flawlessly with Tailwind CSS.",
     name: "Ethan Rodriguez",
     designation: "Software Engineer, CodeWorks",
     src: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb",
   },
   {
     quote:
-      "The integration with Shadcn made it super easy to customize the components. Luniva UI is now a must-have in our tech stack.",
+      "The integration with Shadcn made it super easy to customize the components. BotNext UI is now a must-have in our tech stack.",
     name: "Priya Sharma",
     designation: "Full Stack Developer, Innovate Labs",
     src: "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb",

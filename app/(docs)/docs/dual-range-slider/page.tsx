@@ -11,7 +11,7 @@ import DualRangeSliderLabelPosition from '@/app/(docs)/docs/dual-range-slider/us
 import DualRangeSliderSingle from '@/app/(docs)/docs/dual-range-slider/usage/dual-range-slider-single';
 
 export const metadata: Metadata = baseMetadata({
-  title: 'Luniva UI-Dual Range Slider',
+  title: 'BotNext UI-Dual Range Slider',
   description: 'An enhancement slider that allows you to select a range of values.',
 });
 

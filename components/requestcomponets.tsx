@@ -99,7 +99,7 @@ const RequestForm = () => {
               name="url"
               type="url"
               className="bg-black border-gray-800 focus:border-gray-700"
-              placeholder="spectrumui.ezeslucky.us"
+              placeholder="botnextui.ezeslucky.us"
             />
           </div>
 

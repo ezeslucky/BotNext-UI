@@ -4,7 +4,7 @@ import React from "react";
 import { PageSubTitle, PageTemplate } from "../components/page-template";
 import { Steppers } from "@/components/ui/steppers";
 
-import CardCollection from "@/components/spectrumui/cards";
+import CardCollection from "@/components/botnextui/cards";
 const page = () => {
   return (
     <div>
@@ -12,7 +12,7 @@ const page = () => {
         <PageSubTitle>Installation</PageSubTitle>
         <Steppers
           withInstall
-          codePath="components/spectrumui/cards.tsx"
+          codePath="components/botnextui/cards.tsx"
           installScript="npx shadcn@latest add card"
          
           withEnd

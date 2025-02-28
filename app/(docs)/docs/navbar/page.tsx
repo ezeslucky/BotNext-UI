@@ -19,7 +19,7 @@ import Floatingnavbar from "./usage/flotingnavbar";
 import Sidenavbar from "./usage/sidenav";
 
 export const metadata: Metadata = baseMetadata({
-  title: "Luniva UI-Navbar",
+  title: "BotNext UI-Navbar",
   description:
     "An enhancement slider that allows you to select a range of values.",
 });
