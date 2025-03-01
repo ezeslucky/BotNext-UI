@@ -61,7 +61,7 @@ export default function Footer() {
               <h3 className="font-semibold mb-4">Socials</h3>
               <ul className="space-y-2">
                 <li>
-                  <Link href="https://github.com/ezeslucky/BotNextUI.git" className="text-gray-600 hover:text-black dark:text-gray-400 dark:hover:text-white">
+                  <Link href="https://github.com/ezeslucky/BotNext-UI.git" className="text-gray-600 hover:text-black dark:text-gray-400 dark:hover:text-white">
                     Github
                   </Link>
                 </li>

@@ -56,7 +56,7 @@ export function Navbar() {
               </div>
               <div>
               <Link
-                href="https://github.com/ezeslucky/BotNextUI.git"
+                href="https://github.com/ezeslucky/BotNext-UI.git"
                 className={buttonVariants({ variant: "ghost", size: "icon" })}
               >
                 <Icons.gitHub className="icon-class w-4" />

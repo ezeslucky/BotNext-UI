@@ -20,7 +20,7 @@ Click the "Fork" button at the top-right of the repository page to create your o
 Clone your forked repository to your local machine:
 
 ```bash
-git clone https://github.com/ezeslucky/BotNextUI.git
+git clone https://github.com/ezeslucky/BotNext-UI.git
 cd BotNextUI
 ```
 
