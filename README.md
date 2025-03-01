@@ -21,7 +21,7 @@ Clone your forked repository to your local machine:
 
 ```bash
 git clone https://github.com/ezeslucky/BotNext-UI.git
-cd BotNextUI
+cd BotNext-UI
 ```
 
 ---
@@ -73,6 +73,11 @@ Push your branch to your forked repository:
 ```bash
 git push origin feature-name
 ```
+#### 9. **Create a Pull Request (PR)**  
+- Go to the [Pull Requests](https://github.com/ezeslucky/BotNext-UI/pulls) section of the original repository.  
+- Click **"New Pull Request"**.  
+- Select your branch and submit your PR.  
+- Provide a clear description of your changes, including why they are beneficial.
 
 ---
 
