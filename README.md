@@ -74,7 +74,7 @@ Push your branch to your forked repository:
 git push origin feature-name
 ```
 #### 9. **Create a Pull Request (PR)**  
-- Go to the [Pull Requests](https://github.com/your-username/BotNext-UI/pulls) section of the original repository.  
+- Go to the [Pull Requests](https://github.com/ezeslucky/BotNext-UI/pulls) section of the original repository.  
 - Click **"New Pull Request"**.  
 - Select your branch and submit your PR.  
 - Provide a clear description of your changes, including why they are beneficial.
