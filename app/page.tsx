@@ -4,8 +4,7 @@
 /* eslint-disable react/jsx-no-undef */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 import { HeroParallax } from '@/components/connect-parallax'
-import { ContainerScroll } from '@/components/container-scroll-animation'
-import { InfiniteMovingCards } from '@/components/infinite-moving-cards'
+
 import { Navbar } from '@/components/navbar'
 import { Button } from '@/components/ui/button'
 import { Card, CardTitle } from '@/components/ui/card'
