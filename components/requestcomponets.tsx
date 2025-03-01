@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import React, { useState, useEffect, useRef } from "react";
@@ -98,7 +99,7 @@ const RequestForm = () => {
               name="url"
               type="url"
               className="bg-black border-gray-800 focus:border-gray-700"
-              placeholder="botnextui.ezeslucky.us"
+              placeholder="botnext-ui.ezeslucky"
             />
           </div>
 
