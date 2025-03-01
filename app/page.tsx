@@ -41,7 +41,7 @@ export default function Home() {
  };
  const fetchGithubData = () => {
    axios
-     .get("https://api.github.com/repos/arihantcodes/spectrum-ui")
+     .get("https://api.github.com/repos/ezeslucky/BotNext-UI")
      .then((response: { data: { stargazers_count: any } }) => {
        const star = response.data.stargazers_count;
        setStar(star);
