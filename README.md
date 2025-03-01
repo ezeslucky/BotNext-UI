@@ -63,5 +63,10 @@ BotNext UI is licensed under the MIT License. See the [LICENSE](LICENSE) file fo
 
 ---
 
-### ⭐ Show Your Support
-If you like this project, give it a **star** ⭐ on GitHub!
+## ⭐ Show Your Support  
+If you like this project, give it a **star** ⭐ on GitHub!  
+
+[![Star on GitHub](https://img.shields.io/github/stars/ezeslucky/BotNext-UI?style=social)](https://github.com/ezeslucky/BotNext-UI/stargazers)  
+
+[![Star Us](https://raw.githubusercontent.com/ezeslucky/BotNext-UI/main/assets/star-banner.png)](https://github.com/ezeslucky/BotNext-UI/stargazers)
+
