@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 "use client"
 
@@ -332,7 +333,7 @@ export default function Component() {
                     <AvatarFallback>CS</AvatarFallback>
                   </Avatar>
                   <div className="bg-gray-800 rounded-lg p-2 max-w-[80%]">
-                    <p className="text-sm">I'm sorry to hear that. Can you please provide more details about the issue you're experiencing?</p>
+                    <p className="text-sm">I'm sorry to hear that. Could you provide more details about the issue you're facing?</p>
                   </div>
                 </div>
 

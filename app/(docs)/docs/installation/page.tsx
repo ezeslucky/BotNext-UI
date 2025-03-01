@@ -10,7 +10,7 @@ export default function Component() {
         {/* Header */}
         <div className="space-y-1">
           <div className="text-sm ">Installation</div>
-          <h1 className="text-2xl font-bold">BotNext UI</h1>
+          <h1 className="text-2xl font-bold"> BotNext UI</h1>
           <p className="">Install and configure Next.js.</p>
         </div>
 
@@ -113,12 +113,12 @@ export default function Component() {
                 <div>
                   <span className="text-gray-500">2</span> Which color would you
                   like to use as base color? {">"}
-                  <span className=""> Zinc</span>
+                  <span className=""> Neutral  </span>
                 </div>
                 <div>
                   <span className="text-gray-500">3</span> Do you want to use
                   CSS variables for colors? {">"}
-                  <span className=""> no / yes</span>
+                  <span className="">  yes / no</span>
                 </div>
               </pre>
             </Card>

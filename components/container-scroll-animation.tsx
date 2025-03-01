@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client'
 import React, { useRef } from 'react'
 import { useScroll, useTransform, motion } from 'framer-motion'

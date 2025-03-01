@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "Tailwind CSS",
     "Server Components",
     "Radix UI",
-    "BotNext UI",
+    " BotNext UI",
     "UI Components",
     "Design",
     "100xdevs",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   ],
   authors: [
     {
-      name: "BotNext UI",
+      name: " BotNext UI",
       url: siteConfig.url,
     },
     {

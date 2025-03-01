@@ -35,7 +35,7 @@ import MultipleSelectorHideClearAll from '@/app/(docs)/docs/multiple-selector/us
 import MultipleSelectorWithSyncSearch from '@/app/(docs)/docs/multiple-selector/usage/multiple-selector-with-sync-search';
 
 export const metadata: Metadata = baseMetadata({
-  title: 'BotNext UI-Multiple Selector',
+  title: ' BotNext UI-Multiple Selector',
   description:
     'Fast,composable, fully-featured multiple selector for React. such as async search with debounce, maximum selected count, grouping, creatable selector ...etc.',
 });

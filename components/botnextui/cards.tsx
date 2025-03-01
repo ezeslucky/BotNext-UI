@@ -768,7 +768,7 @@ export default function CardCollection() {
               <AvatarFallback>SU</AvatarFallback>
             </Avatar>
             <div>
-              <CardTitle>BotNext UI</CardTitle>
+              <CardTitle> BotNext UI</CardTitle>
               <CardDescription>@ezesluckycodes</CardDescription>
             </div>
           </div>
@@ -1605,7 +1605,7 @@ export function ProfileCard() {
             <AvatarFallback>SU</AvatarFallback>
           </Avatar>
           <div>
-            <CardTitle>BotNext UI</CardTitle>
+            <CardTitle> BotNext UI</CardTitle>
             <CardDescription>@ezesluckycodes</CardDescription>
           </div>
         </div>

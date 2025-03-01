@@ -2,7 +2,7 @@
 import Link from "next/link";
 
 import { Icons } from "./icon";
-import { Button } from "./ui/button";
+
 
 export default function Footer() {
   return (
@@ -12,7 +12,7 @@ export default function Footer() {
           <div className="mb-8 md:mb-0">
             <Link href="/" className="flex items-center gap-2">
               <Icons.logo className="icon-class w-2" />
-              <h2 className="text-lg font-bold">BotNext UI</h2>
+              <h2 className="text-lg font-bold"> BotNext UI</h2>
             </Link>
 
             <h1 className="dark:text-gray-300 mt-4">
@@ -25,7 +25,7 @@ export default function Footer() {
             
             </div>
             <p className="text-sm dark:text-gray-400 mt-5">
-              © {new Date().getFullYear()} BotNext UI. All rights reserved.
+              © {new Date().getFullYear()}  BotNext UI. All rights reserved.
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -97,7 +97,7 @@ export default function Footer() {
         </div>
         <div className=" w-full flex mt-4 items-center justify-center   ">
           <h1 className="text-center text-3xl md:text-5xl lg:text-[10rem] font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-700 to-neutral-900 select-none">
-            BotNext UI
+             BotNext UI
           </h1>
         </div>
       

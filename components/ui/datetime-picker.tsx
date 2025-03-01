@@ -364,10 +364,7 @@ const TimePeriodSelect = React.forwardRef<HTMLButtonElement, PeriodSelectorProps
     const handleValueChange = (value: Period) => {
       setPeriod?.(value);
 
-      /**
-       * trigger an update whenever the user switches between AM and PM;
-       * otherwise user must manually change the hour each time
-       */
+     
       if (date) {
         const tempDate = new Date(date);
         const hours = display12HourValue(date.getHours());
@@ -431,10 +428,7 @@ const TimePickerInput = React.forwardRef<HTMLInputElement, TimePickerInputProps>
     const [flag, setFlag] = React.useState<boolean>(false);
     const [prevIntKey, setPrevIntKey] = React.useState<string>('0');
 
-    /**
-     * allow the user to enter the second digit within 2 seconds
-     * otherwise start again with entering first digit
-     */
+    
     React.useEffect(() => {
       if (flag) {
         const timer = setTimeout(() => {

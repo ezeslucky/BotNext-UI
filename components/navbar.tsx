@@ -2,7 +2,7 @@
 import { ModeToggle } from "@/components/theme-toggle";
 
 import Link from "next/link";
-import { Button, buttonVariants } from "./ui/button";
+import {  buttonVariants } from "./ui/button";
 import { Icons } from "./icon";
 import Anchor from "./anchor";
 import { SheetLeftbar } from "./leftbar";
@@ -26,10 +26,10 @@ export const NAVLINKS = [
     title: "Examples",
     href: "/examples",
   },
-  {
-    title: "Colors",
-    href: "/colors",
-  },
+  // {
+  //   title: "Colors",
+  //   href: "/colors",
+  // },
 ];
 
 export function Navbar() {
@@ -86,7 +86,7 @@ export function Logo() {
       <Icons.logo className="icon-class w-2" />
 
       <h2 className="text-base md:text-lg font-bold">
-       BotNext UI
+        BotNext UI
       </h2>
       
     </Link>

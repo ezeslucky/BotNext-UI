@@ -14,7 +14,7 @@ import { InlineCode } from '@/components/ui/inline-code';
 import { P } from '@/components/ui/heading-with-anchor';
 
 export const metadata: Metadata = baseMetadata({
-  title: 'BotNext UI-Autosize Textarea',
+  title: ' BotNext UI-Autosize Textarea',
   description: 'auto resize textarea height based on content.',
 });
 
