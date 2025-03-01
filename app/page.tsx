@@ -39,15 +39,25 @@ export default function Home() {
    hidden: { opacity: 0, y: 30 },
    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
  };
-
- 
+ const fetchGithubData = () => {
+   axios
+     .get("https://api.github.com/repos/arihantcodes/spectrum-ui")
+     .then((response: { data: { stargazers_count: any } }) => {
+       const star = response.data.stargazers_count;
+       setStar(star);
+     })
+     .catch((error) => {
+       console.error("Error fetching GitHub data:", error);
+     });
+ };
 
  useEffect(() => {
-   // If there's any other logic to be added, do it here.
+   fetchGithubData();
  }, []);
- 
  return (
-   <><motion.div
+   
+     
+     <><motion.div
      className="flex items-center justify-center flex-col"
      variants={staggerContainer}
      initial="hidden"
@@ -96,6 +106,7 @@ export default function Home() {
                size={"lg"}
              >
                <Icons.gitHub className="icon-class w-4 " />
+
              </Button>
            </Link>
          </motion.div>
@@ -105,12 +116,20 @@ export default function Home() {
          <div className="md:ml-5 h-full w-full"></div>
        </div>
      </motion.div>
-   </motion.div>
-   <motion.div className="mt-16" variants={staggerItem}>
-     <Card className="hidden md:flex md:flex-col">
-       <CardTitle className="mt-5 text-center mb-8"></CardTitle>
-       <HeroParallax products={products}></HeroParallax>
-     </Card>
-   </motion.div></>
+
+
+   </motion.div><motion.div className="mt-16" variants={staggerItem}>
+       <Card className="hidden md:flex md:flex-col">
+         <CardTitle className="mt-5 text-center mb-8">
+
+         </CardTitle>
+         <HeroParallax products={products}></HeroParallax>
+       </Card>
+     </motion.div></>
+     
+       
+   
+    
+  
  )
-}
+} 
