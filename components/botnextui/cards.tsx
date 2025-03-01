@@ -763,13 +763,13 @@ export default function CardCollection() {
             <Avatar>
               <AvatarImage
                 src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
-                alt="@ezesluckycodes"
+                alt="@ezeslucky"
               />
               <AvatarFallback>SU</AvatarFallback>
             </Avatar>
             <div>
               <CardTitle> BotNext UI</CardTitle>
-              <CardDescription>@ezesluckycodes</CardDescription>
+              <CardDescription>@ezeslucky</CardDescription>
             </div>
           </div>
         </CardHeader>
@@ -1600,13 +1600,13 @@ export function ProfileCard() {
           <Avatar>
             <AvatarImage
               src="https://img.freepik.com/premium-photo/anime-male-avatar_950633-956.jpg"
-              alt="@ezesluckycodes"
+              alt="@ezeslucky"
             />
             <AvatarFallback>SU</AvatarFallback>
           </Avatar>
           <div>
             <CardTitle> BotNext UI</CardTitle>
-            <CardDescription>@ezesluckycodes</CardDescription>
+            <CardDescription>@ezeslucky</CardDescription>
           </div>
         </div>
       </CardHeader>
