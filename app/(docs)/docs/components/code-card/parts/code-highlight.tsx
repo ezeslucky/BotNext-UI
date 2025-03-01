@@ -1,6 +1,9 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 "use client";
 import React, { useState } from "react";
-import Highlight from "react-highlight";
+// import Highlight from "react-highlight";
+const Highlight = require("react-highlight").default;
+
 import "highlight.js/styles/github-dark.css";
 
 
@@ -55,6 +58,8 @@ const CodeHighlight = ({
         )}
       >
         <Highlight className={cn("h-full ", lang)}>{code}</Highlight>
+        
+
       </div>
       <div
         className={cn(
