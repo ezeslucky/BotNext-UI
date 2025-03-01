@@ -21,7 +21,7 @@ Clone your forked repository to your local machine:
 
 ```bash
 git clone https://github.com/ezeslucky/BotNext-UI.git
-cd BotNextUI
+cd BotNext-UI
 ```
 
 ---
