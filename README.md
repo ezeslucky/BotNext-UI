@@ -54,7 +54,8 @@ git checkout -b feature-name
 ---
 
 #### 6. **Make Your Changes**  
-Edit the code to implement your feature or fix the bug.
+Contribute by fixing bugs or adding features.
+[Issues](https://github.com/ezeslucky/BotNext-UI/issues)
 
 ---
 
