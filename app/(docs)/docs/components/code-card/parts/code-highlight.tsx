@@ -1,6 +1,9 @@
+/* eslint-disable react/jsx-no-undef */
+/* eslint-disable react/jsx-no-comment-textnodes */
 "use client";
 import React, { useState } from "react";
-import Highlight from "react-highlight";
+import Highlight from 'react-highlight'
+
 import "highlight.js/styles/github-dark.css";
 
 
@@ -54,6 +57,7 @@ const CodeHighlight = ({
           expand && "max-h-[400px] overflow-auto"
         )}
       >
+       
         <Highlight className={cn("h-full ", lang)}>{code}</Highlight>
       </div>
       <div
@@ -75,5 +79,3 @@ const CodeHighlight = ({
     </div>
   );
 };
-
-export default CodeHighlight;
