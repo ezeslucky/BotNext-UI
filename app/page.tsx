@@ -85,7 +85,7 @@ export default function Home() {
            Built With
          </h1>
          <InfiniteMovingCards
-           className="md:mt-[3rem] mt-[-5px]"
+           className="md:mt-[1rem] mt-[-5px] bg-gray"
            items={clients}
            direction="right"
            speed="slow" />
