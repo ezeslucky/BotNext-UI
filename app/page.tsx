@@ -121,7 +121,8 @@ export default function Home() {
                size={"lg"}
              >
                <Icons.gitHub className="icon-class w-4 " />
-
+               
+               Give it a ⭐ {star}
              </Button>
            </Link>
          </motion.div>
