@@ -95,7 +95,7 @@ export default function Home() {
               height={40}
               width={120}
               alt="tailwind css"
-            />
+            />  
             <Image
               src="./aceternity.svg"
               height={40}
@@ -136,10 +136,7 @@ export default function Home() {
 
    </motion.div><motion.div className="mt-16" variants={staggerItem}>
        <Card className="hidden md:flex md:flex-col">
-         <CardTitle className="mt-5 text-center mb-8">
-
-         </CardTitle>
-         <HeroParallax products={products}></HeroParallax>
+         <HeroParallax products={products}/>
        </Card>
      </motion.div></>
      
