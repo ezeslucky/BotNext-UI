@@ -58,10 +58,7 @@ Go to the original repository and create a Pull Request (PR), explaining your ch
 
 For more details, check [Issues](https://github.com/ezeslucky/BotNext-UI/issues) and [Pull Requests](https://github.com/ezeslucky/BotNext-UI/pulls).
 
-## 📜 License
-BotNext UI is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
----
 
 ## ⭐ Show Your Support  
 If you like this project, give it a **star** ⭐ on GitHub!  
