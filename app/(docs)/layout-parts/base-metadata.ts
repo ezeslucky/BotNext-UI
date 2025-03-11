@@ -8,6 +8,6 @@ export function baseMetadata({ title, description }: BaseMetadataProps): Metadat
   return {
     title: `${title}  BotNext UI -ezeslucky Jain`,
     description: ` BotNext UI: ${description}`,
-    authors: [{ name: 'ezeslucky Jain' }, { url: 'https://ezeslucky.us/', name: 'ezeslucky' }],
+    authors: [{ name: 'ezeslucky ' }, { url: 'https://botnextui.vercel.app/', name: 'ezeslucky' }],
   };
 }
